@@ -14,6 +14,10 @@ a{
   text-decoration: none;
   color: black;
 }
+button{
+  cursor: pointer;
+}
+
 .header{
   width: 100%;
   display: flex;
@@ -142,6 +146,7 @@ a{
   padding: 20px 0;
   /* border-bottom: 2px solid rgb(159, 159, 159); */
   font-weight: bold;
+
 }
 .main-content{
   width: 85%;
@@ -150,8 +155,8 @@ a{
 }
 .main-content-contaniner{
   width: 1100px;
-  height: 950px;
-  margin: 20px auto;
+  height: 1000px;
+  margin: 10px auto;
   border-radius: 10px;
   padding: 10px 0;
   background-color: white;
@@ -166,7 +171,7 @@ a{
   text-indent: 40px;
   /* background-color: blue; */
 
-
+  color: #8ecc32;
 }
 .main-content-list{
   margin: 0 auto;
@@ -177,144 +182,124 @@ a{
   border-top: 1px solid #e9f4d9;
   border-bottom: 1px solid #e9f4d9;
 }
-.content-box{
-  margin: 50px auto;
-  width: 500px;
-  height: 700px;
 
-  /* border: 1px solid #000000; */
-}
 
-.findid{
-  /* margin: 0 auto; */
-  width: 250px;
-  height: 60px;
+.content-search{
+  /* background-color: blueviolet; */
 
-  border: 4px solid #adc982;
+  height: 200px;
+  width: 100%;
 
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
-
-  position: absolute;
-
-  font-size: 22px;
-  font-weight: bold;
-
-  cursor: pointer;
-
-  border-bottom: white;
-  border-right: white;
-
-  
 }
-.findida{
-  color: #adc982;
-}
-
-.findpw{
-  margin-left: 250px;
-  margin-bottom: 80px;
-
-  width: 250px;
-  height: 60px;
-
-  /* border: 4px solid #e9f4d9; */
+.search-1{
+  background-color: #e9f4d9;
+  border-radius: 5px;
+  height: 80px;
+  width: 100%;
 
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
 
-  font-size: 22px;
-  font-weight: bold;
+}
 
-  cursor: pointer;
+/* 검색 */
+
+.search-s{
+  font-weight: bold;
+}
+
+
+.main-box3-searchbox select , .main-box3-searchbox input{
+  margin: 0 10px;
+}
+.main-box3-searchbox button{
+  margin: 0 10px;
+  width: 100px;
+  height: 31px;
+
+  font-size: 17px;
+  /* border:1px solid #8ecc32; */
+
+  background-color: #9bd14a;
+  border: white;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.main-box3-searchbox select{
+  width: 70px;
+  height: 30px;
+
+  border:1px solid #8ecc32;
+}
+.main-box3-searchbox input{
+  width: 250px;
+  height: 30px;
+
+  border:1px solid #8ecc32;
+  border-radius: 4px;
+}
+
+
+
+
+/* 테이블 */
+
+.main-content-list table{
+  width: 950px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  /* background-color: paleturquoise; */
+}
+.main-content-list table{
+  /* border-top: 0.5px solid #8ecc32; */
+  border-collapse: collapse;
+
+}
+.main-content-list table th{
+  height: 50px;
+  border-bottom: 1px solid #8ecc32;
 
   background-color: #e9f4d9;
-
-  border-bottom: 4px solid #adc982;
-  border-left: 4px solid #adc982;
 }
-.findpwa{
-  color: #bebebe;
+.main-content-list table td{
+  border-bottom: 0.5px solid #8ecc32;
 }
 
-.inputid{
-  height: 60px;
-  width: 100%;
-  
-  padding: 8px 15px 9px;
-  border: 4px solid #e9f4d9;
+.td-button{
+  width: 60px;
+  height: 25px;
+  font-size: 17px;
+  background-color: #9bd14a;
+  border: white;
+  color: white;
+  font-weight: bold;
   border-radius: 4px;
-  box-sizing: border-box;
-
-  font-size: 23px;
-  line-height: 21px;
-
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-
-  border-bottom: white;
-}
-.inputphonenumber{
-  height: 60px;
-  width: 100%;
-  
-  padding: 8px 15px 9px;
-  border: 4px solid #e9f4d9;
-  border-radius: 4px;
-  box-sizing: border-box;
-
-  font-size: 23px;
-  line-height: 21px;
-
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
 }
 
-.inputresult{
-  height: 100px;
-  width: 100%;
 
-  margin-top: 40px;
 
-  font-size: 20px;
-  line-height: 21px;
 
-  border: 4px solid #e9f4d9;
-  border-radius: 10px;
-  box-sizing: border-box;
-  
+/* 페이지관리 */
+
+.paging-container{
+  width: 200px;
+  height: 10px;
+  margin: 50px auto;
+}
+.paging-container ul{
+  list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
 }
-.idfindbutton{
-  margin-top: 40px;
-  width: 100%;
-  height: 60px;
-
-  background: #e9f4d9;
-  border: 1px solid transparent;
-  border-radius: 4px;
-
-  line-height: 20px;
-  font-size: 22px;
-  font-weight: bold;
-
-  color: #adc982;
-
-  cursor: pointer;
+.paging-container ul li{
+  margin: 0 5px;
 }
-
-
-
-
 
 
 
