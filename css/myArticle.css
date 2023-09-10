@@ -1,13 +1,27 @@
+.article-containerbox{
+    width: 1200px;
+    height: auto;
+    border: 10px solid #D0E5B7;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.tab-buttonbox{
+    width: auto;
+    height: 50px;
+    display: flex;
+}
+/*tabbox 버튼 처리 CSS완료*/
+
 .tab {
     display: none;
-    border: 3px solid transparent; /* 초기에는 투명한 테두리로 설정 */
+    /* border: 3px solid transparent; 초기에는 투명한 테두리로 설정 */
     z-index: initial;
 }
 
 /* 활성화된 탭의 스타일 */
 .active-tab {
     display: block;
-    border-color: #D0E5B7; /* 버튼 색상과 동일한 색으로 테두리 설정 */
+    border-color: #fff; /* 버튼 색상과 동일한 색으로 테두리 설정 */
 }
 
 /* 탭 버튼 스타일 */
@@ -15,7 +29,7 @@
     width: 600px;
     height: 50px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #D0E5B7;
     color: black;
     border: none;
     font-size: 20px;
@@ -25,9 +39,10 @@
 
 /* 클릭 시 백그라운드 색상 고정 */
 .tab-button:focus {
-    background-color: #D0E5B7;
+    background-color: white;
     color: black;
     outline: none; /* 클릭 포커스 표시 제거 */
+    border-radius: 5px;
 }
 
 .article-container {
@@ -36,11 +51,6 @@
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
 
 
 
@@ -218,13 +228,14 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 50px;
   }
 .main-box1-1{
     width: 1200px;
     height: 900px;
 }
 .main-box2-title{/*최상단에 위치 할 것*/
-    width: 1198px;
+    width: 1195px;
     height: 50px;
     display: flex;
     align-items: center;
