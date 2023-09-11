@@ -110,7 +110,7 @@ button{
 .main-container{
   width: 100vw;
   height: 1300px;
-  background-color: #e9f4d9;
+  /* background-color: #e9f4d9; */
   /* border-top: 0.5px solid rgb(219, 217, 217); */
   display: flex;
   justify-content: center;
@@ -153,14 +153,7 @@ button{
   height: 1000px;
   /* background-color: white; */
 }
-.main-content-contaniner{
-  width: 1100px;
-  height: 1000px;
-  margin: 10px auto;
-  border-radius: 10px;
-  padding: 10px 0;
-  background-color: white;
-}
+
 .main-content-title{
   margin: 0 auto;
   width: 1000px;
@@ -171,7 +164,9 @@ button{
   text-indent: 40px;
   /* background-color: blue; */
 
-  color: #8ecc32;
+  margin-top: -60px;
+
+  /* color: #8ecc32; */
 }
 .main-content-list{
   margin: 0 auto;
@@ -180,7 +175,7 @@ button{
   /* background-color: greenyellow; */
 
   border-top: 1px solid #e9f4d9;
-  border-bottom: 1px solid #e9f4d9;
+  /* border-bottom: 1px solid #e9f4d9; */
 }
 
 
@@ -224,7 +219,7 @@ button{
   font-size: 17px;
   /* border:1px solid #8ecc32; */
 
-  background-color: #9bd14a;
+  background-color: #aeaeae;
   border: white;
   color: white;
   font-weight: bold;
@@ -234,13 +229,13 @@ button{
   width: 70px;
   height: 30px;
 
-  border:1px solid #8ecc32;
+  border:1px solid #8c8c8c;
 }
 .main-box3-searchbox input{
   width: 250px;
   height: 30px;
 
-  border:1px solid #8ecc32;
+  border:1px solid #8c8c8c;
   border-radius: 4px;
 }
 
@@ -251,7 +246,7 @@ button{
 
 .main-content-list table{
   width: 950px;
-  height: 500px;
+  height: 600px;
   text-align: center;
   margin: 0 auto;
   /* background-color: paleturquoise; */
@@ -263,19 +258,19 @@ button{
 }
 .main-content-list table th{
   height: 50px;
-  border-bottom: 1px solid #8ecc32;
+  border-bottom: 1px solid #bebebe;
 
   background-color: #e9f4d9;
 }
 .main-content-list table td{
-  border-bottom: 0.5px solid #8ecc32;
+  border-bottom: 0.5px solid #bebebe;
 }
 
 .td-button{
   width: 60px;
   height: 25px;
   font-size: 17px;
-  background-color: #9bd14a;
+  background-color: #bebebe;
   border: white;
   color: white;
   font-weight: bold;
@@ -290,7 +285,7 @@ button{
 .paging-container{
   width: 200px;
   height: 10px;
-  margin: 50px auto;
+  margin: 140px auto;
 }
 .paging-container ul{
   list-style: none;
