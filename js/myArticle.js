@@ -1,5 +1,5 @@
 // 초기에 첫 번째 탭을 활성화
-showTab(0);
+// showTab(0);
 
 // JavaScript를 사용하여 탭을 활성화하는 함수
 function showTab(tabIndex) {
