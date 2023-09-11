@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: 'TAEBAEKmilkyway';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
   font-weight: normal;
@@ -101,7 +101,7 @@ a{
 }
 .main-container{
   width: 100vw;
-  height: 1000px;
+  height: 1500px;
   display: flex;
   justify-content: center;
   /* background-color: aquamarine; */
@@ -133,6 +133,105 @@ a{
   font-weight: 200;
   top:190px;
   left: 270px;
+}
+.introduction-01{
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  margin: 15px 0;
+  background-color: rgb(234, 230, 231);
+}
+.intro-title{
+  width: 600px;
+  height: 300px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 250px;
+  font-family: 'TAEBAEKmilkyway';
+  /* background-color: pink; */
+}
+.intro-text{
+  width: 850px;
+  height: 300px;
+  text-align: center;
+  font-size: 24px;
+  /* line-height: 120px; */
+  /* background-color: aquamarine; */
+}
+.intro-text-box{
+  margin: 45px 0;
+  font-family: 'SUITE-Regular';
+}
+.intro-text button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(101, 224, 70);
+}
+#button{
+  color: white;
+  font-weight: bold;
+}
+.introduction-02{
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+.program-intro{
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  line-height: 200px;
+  font-family: 'TAEBAEKmilkyway';
+  font-weight: bold;
+  /* background-color: pink; */
+}
+.program-contents{
+  width: 900px;
+  height: 450px;
+  /* background-color: blue; */
+}
+.program-contents-01{
+  width: 850px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+.program-contents-content{
+  width: 210px;
+  height: 200px;
+  margin: 0 30px;
+  background-color: rgb(218, 251, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 17px;
+  font-family: 'SUITE-Regular';
+  border-radius: 10px;
+}
+.program-contents-content img{
+  width: 80px;
+  height: 80px;
+  margin: 30px 0 20px 0;
+}
+.program-contents-text{
+  width: 200px;
+  height: 120px;
+  margin: 0px 0 20px 0;
+  text-align: center;
 }
 .footer{
   width: 100vw;
