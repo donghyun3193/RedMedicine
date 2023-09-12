@@ -1,60 +1,3 @@
-.article-containerbox{
-    width: 1200px;
-    height: auto;
-    border: 10px solid #D0E5B7;
-    border-radius: 15px;
-    margin-bottom: 50px;
-}
-.tab-buttonbox{
-    width: auto;
-    height: 50px;
-    display: flex;
-}
-/*tabbox 버튼 처리 CSS완료*/
-
-.tab {
-    display: none;
-    /* border: 3px solid transparent; 초기에는 투명한 테두리로 설정 */
-    z-index: initial;
-}
-
-/* 활성화된 탭의 스타일 */
-.active-tab {
-    display: block;
-    border-color: #fff; /* 버튼 색상과 동일한 색으로 테두리 설정 */
-}
-
-/* 탭 버튼 스타일 */
-.tab-button {
-    width: 600px;
-    height: 50px;
-    cursor: pointer;
-    background-color: #D0E5B7;
-    color: black;
-    border: none;
-    font-size: 20px;
-    /* border: 1px solid #99f0a2; */
-    /* border-radius: 5px; */
-}
-
-/* 클릭 시 백그라운드 색상 고정 */
-.tab-button:focus {
-    background-color: white;
-    color: black;
-    outline: none; /* 클릭 포커스 표시 제거 */
-    border-radius: 5px;
-}
-
-.article-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/*=================================임시로 적용하겠습니다.===================================*/
 /*공통으로 사용된는 CSS*/
 @font-face {
     font-family: 'TAEBAEKmilkyway';
@@ -205,95 +148,125 @@ a{
 }
 /*===footer가 종료되는 CSS===*/
 
-/*======myArticle메인입니다.=====*/
-.contentbox{
+/* ===paymemt페이지 css 시작=== */
+.payment-edge{
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px 0;
 }
-.main-container{
-    width: 1200px;
-    height: 980px;
+.img-container{
+    width: 600px;
+    height: 600px;
     /* background-color: aqua; */
+}
+.payment-container{
+    width: 600px;
+    height: 600px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: end;
+    padding-top: 50px;
+
+}
+.payment-box01{
+    width: 520px;
+    height: 150px;
+    display: block;
+    /* background-color: aqua; */
+}
+.pay-price{
+    font-size: 24px;
+    margin-top: 40px;
+
+}
+
+.payment-box02{
+    width: 520px;
+    height: 120px;
+    border: 1px solid silver;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
-  }
-.main-box1-1{
-    width: 1200px;
-    height: 900px;
+    align-items: center;
 }
-.main-box2-title{/*최상단에 위치 할 것*/
-    width: 1195px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-top: 20px;
-    border: 1px solid rgb(245, 245, 245);
-    background-color: rgb(245, 245, 245);
-}
-.main-box2-content-content{
-    width: 1200px;
-    height: 54px;
-    display: flex;
-    align-items: center;
-    border-bottom: 0.5px solid rgb(245, 245, 245);
-  
-    /* text-align: center;
-    justify-content: center; */
-  }
-  .main-box2-content-title{
-    width: 780px;
-    height: 54px;
-    display: flex;
-    align-items: center;
-  
-    text-align: center;
-    justify-content: center;
-  }
-  .main-box2-content-date{
-    width: 240px;
-    height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .main-box2-content-management{
-    width: 180px;
-    height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  /* 따로 페이징 처리 위해서 .main-box1-1를 묶고 생각해야*/
+.pay-name{
+    width: 520px;
+    height: 20px;
+    text-align: start;
+    padding-left: 100px;
+    padding-top: 30px;
 
-  /* 페이징 처리 임시 */
-  .main-box3{
-    width: 1200px;
+}
+.pay-amount{
+    width: 520px;
     height: 100px;
-    /* background-color: yellow */
-  }
-  .main-box3-pagesbox{
-    width: 1200px;
-    height: 40px;
     display: flex;
-    justify-content: center;
-    /* background-color: blue; */
-  }
-  .main-box3-pages{
-    width: 200px;
-    height: 40px;
-    /* background-color: palevioletred; */
+    justify-content: space-between;
+    align-items: center;
+}
+.pay-count{
+    width: 100px;
+    height: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    margin-left: 50px;
+    border: 1px solid silver;
+}
+#increase, #decrease{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+
+    background-color: white;
+}
+.pay-add{
+    width: 100px;
+    height: 30px;
+    text-align: end;
+    margin: 0 50px 0 0
+}
+.payment-box03{
+    width: 520px;
+    height: 50px;
+    border-bottom: 1px solid silver;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-  .main-box3-pages span{
-    margin: 0 7px;
-    font-size: 14px;
-  }
+}
+.pay-sumtitle{
+    width: 80px;
+    height: 45px;
+    margin-top: 15px;
+}
+.pay-sum{
+    width: 200px;
+    height: 45px;
+}
+.payment-box04{
+    width: 520px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.payment{
+    width: 100px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
