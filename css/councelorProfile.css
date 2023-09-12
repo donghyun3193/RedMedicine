@@ -265,7 +265,7 @@ a{
 
 #reply-content {
     margin: 10px 0;
-    width: 100%;
+    width: 535px;
     resize: none;
     border: none;
     background-color: #f7f7f7;
@@ -287,15 +287,15 @@ a{
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    border: 1px solid #00c7ae;
+    border: 1px solid rgb(8, 20, 73);
     padding: 7px;
     cursor: pointer;
     height: 40px;
-    background-color: #00c7ae;
+    background-color: rgb(8, 20, 73);
 }
 
 .btn-reply:hover {
-    background-color: #00a792;
+    background-color: rgb(8, 20, 73);
 }
 
 /* 댓글 목록 스타일 */
@@ -365,28 +365,15 @@ a{
     display: none;
 }
 
-/* 수정 처리 스타일 */
-.modify-box {
-    display: flex;
-}
-.modify-content {
-    width: 100%;
-    resize: none;
-    border-color: #ccc;
-    height: 50px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-.modify-content-btn {
-    font-size: 12px;
-    color: white;
-    text-decoration: none;
-    border: 1px solid #00c7ae;
-    padding: 7px;
-    cursor: pointer;
-    height: 50px;
-    width: 80px;
-    margin-left: 10px;
-    background-color: #00c7ae;
-}
+
+
+
+
+
+
+
+
+
+/* 추가추가! */
+
 /* 강사님의 리플입니다. */
