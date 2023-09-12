@@ -24,6 +24,8 @@ button{
   justify-content: center;
   /* height: 120px; */
   /* background-color: antiquewhite; */
+
+  border-bottom: 1px solid #f1f1f1;
 }
 .header-container{
   width: 1200px;
@@ -162,11 +164,12 @@ button{
   font-weight: bold;
   line-height: 120px;
   text-indent: 40px;
-  /* background-color: blue; */
-
+  /* background-color: #f7f7f7; */
+   border-radius: 10px;
   margin-top: -60px;
 
   /* color: #8ecc32; */
+  /* border-top: 1px solid #f1f1f1; */
 }
 .main-content-list{
   margin: 0 auto;
@@ -174,7 +177,7 @@ button{
   height: 700px;
   /* background-color: greenyellow; */
 
-  border-top: 1px solid #e9f4d9;
+  border-top: 1px solid #f1f1f1;
   /* border-bottom: 1px solid #e9f4d9; */
 }
 
@@ -190,7 +193,10 @@ button{
   align-items: center;
 }
 .search-1{
-  background-color: #e9f4d9;
+  /* background-color: #e9f4d9; */
+
+  background-color: #f1f1f1;
+
   border-radius: 5px;
   height: 80px;
   width: 100%;
@@ -260,7 +266,7 @@ button{
   height: 50px;
   border-bottom: 1px solid #bebebe;
 
-  background-color: #e9f4d9;
+  background-color: #f1f1f1;
 }
 .main-content-list table td{
   border-bottom: 0.5px solid #bebebe;
