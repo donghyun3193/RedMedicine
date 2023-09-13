@@ -57,3 +57,9 @@ $('.reply-list-wrap').on('click', '.reply-modify-btn', function () {
 $('.reply-list-wrap').on('click', '.modify-content-btn', function () {
     console.log('modify!!!');
 });
+
+// 프로필 아래 물음표 버튼 설정
+$('.cotton-question').on('click', function(){
+    alert("알림\n목화 꽃의 개수는 상담사가\n카운슬러 코리아의 상담사 육성 프로그램과\n슈퍼비전에 얼마나 오랫동안 참여했는지를 나타냅니다.\n2년 이하는 1개, 2년 ~ 5년은 2개, 5년 이상은 3개의 목화 꽃이 표시됩니다.");
+
+});
