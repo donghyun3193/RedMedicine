@@ -20,21 +20,23 @@ a{
 }
 /*===헤더가 시작되는 CSS===*/
 .header{
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     /* height: 120px; */
     /* background-color: antiquewhite; */
-}
-.header-container{
+  
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .header-container{
     width: 1200px;
     height: 120px;
     /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     /* background-color: yellow; */
-}
-.header-nav1{
+  }
+  .header-nav1{
     font-family: 'SUITE-Regular';
     font-size: 18px;
     width: 850px;
@@ -43,19 +45,20 @@ a{
     /* align-items: center; */
     margin: 0 10px 0 20px;
     /* background-color: pink; */
-}
-.logo{
+  }
+  
+  .logo{
     width: 100px;
     height: 120px;
     margin: 0 10px;
     display: flex;
     align-items: flex-end;
-}
-.logo img{
+  }
+  .logo img{
     width: 100px;
     height: 100px;
-}
-.nav1{
+  }
+  .nav1{
     width: 650px;
     height: 90px;
     /* background-color: aqua; */
@@ -63,15 +66,17 @@ a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-.nav1 ul{
+  }
+  .nav1 ul{
     display: flex;
     list-style: none;
-}
-.nav1 ul li{
+    /* align-items: flex-end; */
+    /* background-color: yellow; */
+  }
+  .nav1 ul li{
     margin: 0 10px;
-}
-.header-nav2{
+  }
+  .header-nav2{
     width: 180px;
     height: 120px;
     display: flex;
@@ -81,23 +86,23 @@ a{
     /* align-items: center; */
     /* margin: 0 10px; */
     /* background-color: blueviolet; */
-}
-.nav2-box{
+  }
+  .nav2-box{
     width: 180px;
     height: 90px;
     /* background-color: green; */
     display: flex;
     align-items: flex-end;
-}
-.header-nav2 ul{
+  }
+  .header-nav2 ul{
     display: flex;
     list-style: none;
     font-family: 'SUITE-Regular';
     /* background-color: red; */
-}
-.header-nav2 ul li{
+  }
+  .header-nav2 ul li{
     display: flex;
     margin: 0 10px;
     /* background-color: antiquewhite; */
-}
+  }
 /*===헤더가 종료되는 CSS===*/
