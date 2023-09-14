@@ -99,13 +99,8 @@ a{
 }
 
 /* 메인 시작 */
-
-.main-container{
-  width: 100%;
-  height: 1200px;
-  /* background-color: aqua; */
-}
-.main-nav-container{
+/* 서브 메인 나브바  */
+.main-nav-container5{
   width: 100%;
   height: 30px;
   background-color: rgb(249, 147, 37);
@@ -115,27 +110,37 @@ a{
 
 }
 
-.main-nav-container ul{
+.main-nav-container5 ul{
   list-style: none;
   display: flex;
   margin: 0 400px;
   line-height: 30px;
-  margin-left: -170px;
+  margin-left: -160px;
 }
-.main-nav-container ul li{
+.main-nav-container5 ul li{
   font-size: 14px;
   margin: 0 10px;
-  /* font-weight: bold; */
 }
 #main-nav-button{
   color: white;
 }
+
 #nav-title{
   margin: 20px 20px;
   font-size: 23px;
   padding: 20px 0;
   font-weight: bold;
 }
+.main-nav-container5 ul li :hover{
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+  font-weight: bold;
+  
+}
+/*  */
+
+
+
 .main-content{
   width: 100vw;
   height: 2300px;
@@ -157,7 +162,7 @@ font-size: 40px;
 font-weight: bold;
 line-height: 120px;
 /* text-indent: 50px; */
-background-color: rgb(243, 241, 241);
+background-color: seashell;
 border-radius: 5px;
 
 display: flex;
@@ -217,7 +222,7 @@ text-align: center;
 border-top: 1px solid #cdcdcd;
 border-bottom: 1px solid #cdcdcd;
 padding: 10px;
-background-color: #f8f8f8;
+background-color: seashell;
 }
 td{
 padding: 15px;
@@ -246,14 +251,14 @@ width: 150px;
 height: 50px;
 font-size: 18px;
 font-weight: bold;
-background-color: #009df5;
+background-color: orange;
 border: 0;
 border-radius: 5px;
 cursor: pointer;
 color: #fff;
 }
 .result {
-background: #f1f1f1;
+background: seashell;
 border: 1px solid #d1d1d1;
 padding: 15px;
 }
@@ -262,12 +267,13 @@ display: block;
 text-align: center;
 
 font-size: 22px;
-color: #009df5;
+color: orange;
 }
 
 .th1{
   width: 420px;
 }
+
 /* 푸터 시작 */
 .footer{
   width: 100vw;

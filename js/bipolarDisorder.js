@@ -89,3 +89,10 @@
   const checkResultButton1 = document.querySelector('.b-button');
   checkResultButton1.addEventListener('click', calculateResult);
 
+
+
+
+
+
+
+
