@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>아이디 찾기</title>
-    <link rel="stylesheet" href="/css/findId.css">
+    <title>비밀번호 변경하기</title>
+    <link rel="stylesheet" href="/css/changePw.css">
+    <script defer src="/js/.js"></script>
 </head>
 <body>
 
@@ -42,29 +43,32 @@
 
         <div class="main-content">
             <div class="main-content-contaniner">
-                <div class="main-content-title">아이디 찾기</div>
+                <div class="main-content-title">비밀번호 변경하기</div>
                 <div class="main-content-list">
                   <div class="content-box">
-                      <div class="findid">
+                      <!-- <div class="findid">
                         <a class="findida" href="/html/findId.html">아이디 찾기</a>
                       </div>
                       <div class="findpw">
                         <a class="findpwa" href="/html/findPw.html">비밀번호 찾기</a>
-                      </div>
+                      </div> -->
 
                       <div class="div1">
-                        <input class="inputid" type="text" placeholder="이름" id="nameInput">
-                        <input class="inputphonenumber" type="text" placeholder="휴대폰 번호" id="phoneInput">
+                        <input class="inputpw" type="password" placeholder="새로운 비밀번호" id="nameInput">
+                        <input class="inputpw2" type="password" placeholder="새로운 비밀번호 확인" id="phoneInput">
                       </div>
 
-                      <div class="inputresult" style="display: none;"><strong>                        "이름" 또는 "휴대폰 번호" 가 일치 하지 않습니다.</strong>
+                      <div class="inputresult" style="display: none;">
+                        <strong>
+                          비밀번호가 일치하지 않습니다.
+                        </strong>
 
                       </div>
 
                       <hr style="margin-top: 50px; border:1px solid #ffe4cb;">
 
                       <button class="idfindbutton" onclick="checkInput()">
-                        아이디 찾기
+                        비밀번호 변경하기
                       </button>
 
                     </div>

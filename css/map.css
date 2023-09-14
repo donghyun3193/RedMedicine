@@ -4,7 +4,12 @@
   font-weight: 600;
   font-style: normal;
 }
-
+@font-face {
+  font-family: 'iceJaram-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 *{
   margin: 0;
@@ -108,7 +113,92 @@ button{
 
 
 /* 메인 시작 */
+.main-content-title{
+  margin: 0 auto;
+  width: 1000px;
+  height: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 120px;
+  text-indent: 40px;
+  background-color: rgb(243, 241, 241);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
 
+
+.main-content-title img{
+  width: 260px;
+  height: 160px;
+  margin: 40px 50px;
+}
+.title-info{
+  margin: 30px;
+  width: 600px;
+  /* height: 100px; */
+  /* background-color: white; */
+}
+.main-content-title-text01{
+  margin: 30px 0 20px 0;
+  font-size: 60px;
+  font-family: 'iceJaram-Rg';
+  /* line-height: 100px; */
+  /* background-color: yellow; */
+}
+.main-content-title-text02{
+  width:550px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  font-family: 'SUITE-Regular';
+  /* background-color: aqua; */
+}
+.main-content-title-text02 div{
+  margin: 3px 0;
+  color: rgb(99, 98, 98);
+}
+/* 서브 메인 나브바  */
+.main-nav-container5{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(249, 147, 37);
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-nav-container5 ul{
+  list-style: none;
+  display: flex;
+  margin: 0 400px;
+  line-height: 30px;
+  margin-left: -160px;
+}
+.main-nav-container5 ul li{
+  font-size: 14px;
+  margin: 0 10px;
+}
+#main-nav-button{
+  color: white;
+}
+
+#nav-title{
+  margin: 20px 20px;
+  font-size: 23px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.main-nav-container5 ul li :hover{
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+  font-weight: bold;
+  
+}
+/*  */
 .main-container{
   width: 100%;
   height: 1200px;
@@ -164,18 +254,7 @@ button{
   padding: 10px 0;
   background-color: white;
 }
-.main-content-title{
-  margin: 0 auto;
-  width: 1000px;
-  height: 150px;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 120px;
-  text-indent: 40px;
-  /* background-color: blue; */
 
-  /* color: #8ecc32; */
-}
 .main-content-list{
   margin: 0 auto;
   width: 1000px;

@@ -105,7 +105,45 @@ a{
 
 
 /* 메인 시작 */
+/* 서브 메인 나브바  */
+.main-nav-container5{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(249, 147, 37);
 
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-nav-container5 ul{
+  list-style: none;
+  display: flex;
+  margin: 0 400px;
+  line-height: 30px;
+  margin-left: -170px;
+}
+.main-nav-container5 ul li{
+  font-size: 14px;
+  margin: 0 10px;
+}
+#main-nav-button{
+  color: white;
+}
+
+#nav-title{
+  margin: 20px 20px;
+  font-size: 23px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.main-nav-container5 ul li :hover{
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+  font-weight: bold;
+  
+}
+/*  */
 .main-container{
   width: 100vw;
   height: 950px;
@@ -166,7 +204,7 @@ a{
   font-size: 30px;
   font-weight: bold;
   line-height: 120px;
-  text-indent: 40px;
+  /* text-indent: 40px; */
   /* background-color: blue; */
 
 
@@ -193,7 +231,7 @@ a{
   width: 250px;
   height: 60px;
 
-  border: 4px solid #ffa958;
+  border: 3px solid #ffa958;
 
   display: flex;
   justify-content: center;
@@ -225,7 +263,7 @@ a{
   width: 250px;
   height: 60px;
 
-  /* border: 4px solid #e9f4d9; */
+  /* border: 3px solid #e9f4d9; */
 
   display: flex;
   justify-content: center;
@@ -246,12 +284,12 @@ a{
   color: #ffa958;
 }
 
-.inputemail{
+.inputnumber{
   height: 60px;
   width: 100%;
   
   padding: 8px 15px 9px;
-  border: 4px solid #ffa958;
+  border: 3px solid #ffa958;
   border-radius: 4px;
   box-sizing: border-box;
 
@@ -268,7 +306,7 @@ a{
   width: 100%;
   
   padding: 8px 15px 9px;
-  border: 4px solid #ffa958;
+  border: 3px solid #ffa958;
   border-radius: 4px;
   box-sizing: border-box;
 
@@ -289,7 +327,7 @@ a{
   font-size: 20px;
   line-height: 21px;
 
-  border: 4px solid #ffa958;
+  border: 3px solid #ffa958;
   border-radius: 10px;
   box-sizing: border-box;
   
@@ -297,6 +335,8 @@ a{
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  color: darkorange;
 }
 .idfindbutton{
   margin-top: 40px;
@@ -318,9 +358,113 @@ a{
 
 
 
+/* 추가 css */
+.main-b1{
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  background: #ffa958;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  line-height: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+
+  cursor: pointer;
+}
+.main-label1-input2{
+  /* display: inline-block;
+  width: 500px;
+  padding: 8px 15px 9px;
+  border: 1px solid rgb(204, 209, 212);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 21px; */
+
+  /* margin-bottom: 0px; */
+  
+  /* position: absolute; */
+  margin-top: 10px;
+
+  height: 60px;
+  width: 430px;
+  
+  padding: 8px 15px 9px;
+  border: 3px solid orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  font-size: 23px;
+  line-height: 21px;
+
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.main-b3{
+  margin-top: 10px;
+
+  width: 70px;
+  height: 60px;
+  padding: 0px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  /* color: rgb(194, 200, 204); */
+
+  border: 1px solid transparent;
+  border-color: rgb(218, 220, 224);
+  border-radius: 0 4px 4px 0;
+
+  position: absolute;
+  right: 0px;
+  /* top:5px */
+
+  font-size: 17px;
+
+  cursor: pointer;
+
+  
+}
+.main-c-s-d1{
+  display: flex;
+  position: relative;
+}
+.main-time{
+  position: absolute;
+  right: 80px;
+  top:10.5px;
+
+  /* color:rgb(194, 200, 204);; */
+}
+.main-time{
+  position: absolute;
+  right: 81px;
+  top:26px;
+
+  font-size: 20px;
+  color: #000;
+  /* color:rgb(194, 200, 204);; */
+}
 
 
-
+.div1 input:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.div1 input:focus{
+  border-color: #5ac4fd;
+}
+.main-c-s-d1 input:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.main-c-s-d1 input:focus{
+  border-color: #5ac4fd;
+}
 
 /* 푸터 시작 */
 
