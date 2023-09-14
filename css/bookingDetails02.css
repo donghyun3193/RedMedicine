@@ -191,7 +191,7 @@ a{
   
 }
 /*  */
-/* ===예약 상세 페이지입니다.=== */
+/* 예약 페이지02 시작 */
 .booking{
     width: 100%;
     height: auto;
@@ -201,168 +201,66 @@ a{
     align-items: center;
 }
 .edge{
-    width: 1000px;
+    width: 600px;
     height: auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     /* border: 1px solid rgb(249, 147, 37); */
-    margin-bottom: 100px;
+    margin:100px 0 100px 0;
 }
-.explanation{
-  width: 300px;
-  height: 80px;
-  /* border: 1px solid black; */
-  text-align: center;
-  margin-top: 30px;
-  border-bottom: 5px solid rgb(249, 147, 37);
-  border-radius: 10px;
+.agreebox01{
+    width: 600px;
+    height: 30px;
+    justify-content: start;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 30px;
 }
-.time-selectbox{
-  width: 800px;
-  height: auto;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.calender-box{
-  width: 600px;
-  height: 550px;
-  display: flex;
-  flex-direction: column ;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid black; */
-  margin-bottom: 10px;
-  overflow: hidden; /* 내부 컨텐츠가 div 영역을 벗어나는 경우 스크롤바를 숨깁니다. */
-}
-.calender-box-title{
-  width: 600px;
-  height: 80px;
-  text-align: center;
-}
-/*달력 css 시작*/
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
-
-.calender-div{
-    background-color : white;
+.agerebox02
+.agerebox03
+.agerebox04{
+    width: 600px;
     height: auto;
-    width: 400px;
-    margin: 0px;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius:5px;
-    box-shadow:0px 20px 15px -10px rgb(255, 226, 173);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-td {
-    width: 50px;
+.agree-check{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffa958;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px 0 20px; 
+}
+.btn-container{
+    width: 600px;
     height: 50px;
-}
-
-.Calendar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
     text-align: center;
+    border: none;
 }
-
-.Calendar>thead>tr:first-child>td {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-.Calendar>thead>tr:last-child>td {
-    font-family: 'Questrial', sans-serif;
-    font-weight: 600;     
-}
-
-.Calendar>tbody>tr>td>p {
-    font-family: 'Montserrat', sans-serif;
-    height: 45px;
-    width: 45px;
-    border-radius: 45px;
-    transition-duration: .2s;
-    line-height: 45px;
-    margin: 2.5px;
-    display: block;
-    text-align: center;
-}        
-
-.pastDay {
-    color: lightgray;
-}
-
-.today {
-    background-color: #F5D042;            
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.futureDay {
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-.futureDay:hover{
-    background:#eee;
-}
-
-.futureDay.choiceDay,
-.today.choiceDay {
-    background: #0A174E;
-    color: #fff;
-    font-weight: 600;
-    cursor: pointer;
-}
-/* 달력 css 종료 */
-/* 시간 선택 css */
-.timebox {
-  width: 600px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-time-container {
-  flex: 0 0 20%;
-  margin: 5px;
-}
-
-.btn-time {
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  color: black;
-  border: none;
-  cursor: pointer;
-}
-
-.btn-time:hover {
-  background-color: rgb(255, 226, 173);
-  border-radius: 5px;
-}
-/* 시간 선택 css 종료*/
-.btn-nextpage{
-  width: 600px;
+#nextButton{
+  display: block;
+  width: 150px;
   height: 50px;
-  display: flex;
-  justify-content: end;
-}
-.nextpage{
-  width: 100px;
-  height: 50px;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: rgb(255, 226, 173);
   font-size: 18px;
   font-weight: 400;
-  margin:30px 30px 0 0 ;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffa958;
+  color: black;
+  cursor: pointer;
 }
+/* 예약 페이지02 종료 */
