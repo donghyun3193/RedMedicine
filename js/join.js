@@ -52,3 +52,44 @@ birthDayEl.addEventListener('focus', function () {
     }
   }
 });
+
+    var $all = $(".section2-checkbox");
+    var $inputs = $(".main-checkbox");
+    
+    $all.on('click',function(){
+        //"all" 클래스를 가진 요소들에 대해 클릭 이벤트 리스너를 등록
+        if($(this).is(":checked")){
+            $inputs.prop('checked',true);
+        }else{
+            $inputs.prop('checked',false);
+        }
+    });
+
+
+  //모달창 js 시작
+  const body = document.querySelector('body');
+  const modal = document.querySelector('.modal');
+//  const btnOpenPopup = document.querySelector('.btn-open-popup');/
+  const btnOpenPopup2 = document.querySelector('.btn-open-popup2');
+
+  btnOpenPopup2.addEventListener('click', () => {
+   modal.classList.toggle('show');
+  //모달 on
+  
+  if (modal.classList.contains('show')) {
+  body.style.overflow = 'hidden';
+  //모달 off
+  }
+  });
+  
+  modal.addEventListener('click', (event) => { if (event.target === modal) {
+  modal.classList.toggle('show');
+  //class를 이용한 모달 on/off
+  
+  if (!modal.classList.contains('show')) {
+  body.style.overflow = 'auto';
+  }
+  }
+  });
+  //모달창 js 끝
+  
