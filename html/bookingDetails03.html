@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/payment.css">
-    <title>payment</title>
+    <link rel="stylesheet" href="/css/bookingDetails03.css">
+    <title>bookingDetails03</title>
 </head>
 <body>
 <div class="header">
     <div class="header-container">
         <div class="header-nav1">
-            <div class="logo"><a href="#"><img src="/img/logo.png" alt=""></a></div>
+            <div class="logo"><a href="/html/index.html"><img src="/img/logo.png" alt=""></a></div>
             <div class="nav1">
                 <ul>
                     <li><a href="">힐링음악</a></li>
@@ -33,39 +33,29 @@
     </div>
 </div>
 <!-- 헤더 종료 -->
-<!-- payment페이지 시작 -->
-<main class="payment-edge">
-    <div class="img-container">
-        <img src="/img/payment.jpg" alt="결제 이미지"
-        style="width: 600px; height: 600px;">
-    </div>
-
-    <div class="payment-container">
-        <div class="payment-box01">
-            <div class="pay-title"><h2>월결제</h2></div>
-            <div class="pay-price"><strong>50,000원</strong></div>
-        </div>
-        <div class="payment-box02">
-            <div class="pay-name">월결제</div>
-            <div class="pay-amount">
-                <div class="pay-count">
-                    <button id="increase"><strong>+</strong></button>
-                    <div><span id="number"><strong>1</strong></span></div>
-                    <button id="decrease"><strong>-</strong></button>
-                </div>
-                <div class="pay-add"><strong>+50000원</strong></div>
+<!-- councelorProfile 메인 페이지 시작 -->
+<div class="main-nav-container5">
+    <ul>
+        <!-- <li><a href="/html/diagnosis.html" id="main-nav-button">우울증</a></li>
+        <li><a href="/html/bipolarDisorder.html" id="main-nav-button">조울증</a></li>
+        <li><a href="/html/anxiety.html" id="main-nav-button">불안증</a></li>
+        <li><a href="/html/stress.html" id="main-nav-button">스트레스</a></li> -->
+    </ul>
+</div>
+<main class="booking">
+    <div class="edge">
+        <div class="counsel-title"><h2>상담에서 얻고 싶은 것</h2></div>
+        <div class="content-content">
+            <textarea name=""id="writing-area"></textarea>
+            <br>
+            <div class="btn-box">
+                <!-- 버튼에 type="submit" 추가 -->
+                <button type="submit" class="btn-submit" id="submitButton" disabled>전 송</button>
             </div>
-        </div>
-        <div class="payment-box03">
-            <div class="pay-sumtitle"><strong>총 금액</strong></div>
-            <div class="pay-sum"><h2><span id="price">50000원</span></h2></div>
-        </div>
-        <div class="payment-box04">
-            <button class="payment">결  제</button>
         </div>
     </div>
 </main>
-<!-- payment페이지 종료 -->
+<!-- councelorProfile 종료 -->
 <!-- 풋터 시작 -->
 <div class="footer">
     <div class="footer-container1">
@@ -85,6 +75,6 @@
 </div>
 <!-- 풋터 종료 -->
 <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-<script src="/js/payment.js"></script>
+<script src="../js/bookingDetails03.js"></script>
 </body>
 </html>
