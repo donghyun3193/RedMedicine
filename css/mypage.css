@@ -107,8 +107,8 @@ a{
 /* 메인 시작 */
 .main-container{
   width: 100%;
-  height: 1200px;
-  /* background-color: aqua; */
+  height: 1600px;
+  /* background-color: aqua;*/
 }
 .main-nav-container{
   width: 100%;
@@ -119,38 +119,16 @@ a{
   justify-content: center;
 
 }
-
-.main-nav-container ul{
-  list-style: none;
-  display: flex;
-  margin: 0 400px;
-  line-height: 30px;
-      margin-left: 160px;
-}
-.main-nav-container ul li{
-  font-size: 14px;
-  margin: 0 10px;
-  /* font-weight: bold; */
-}
-#main-nav-button{
-  color: white;
-}
-#nav-title{
-  margin: 20px 20px;
-  font-size: 23px;
-  padding: 20px 0;
-  font-weight: bold;
-}
 .main-content{
   width: 100%;
-  height: 1000px;
+  height: 1500px;
   display: flex;
   justify-content: center;
-  /* background-color: white; */
+  /* background-color: white;*/
 }
 .main-content-contaniner{
   width: 1100px;
-  height: 1000px;
+  height: 1400px;
   margin: 20px auto;
   border-radius: 10px;
   padding: 10px 0;
@@ -162,134 +140,119 @@ a{
 .main-content-title{
   margin: 0 auto;
   width: 1000px;
-  height: 150px;
+  height: 50px;
   font-size: 30px;
   font-weight: bold;
   line-height: 120px;
   text-indent: 40px;
   text-align: center;
-  /* background-color: blue; */
-
-
+  /* background-color: blue;*/
 }
 .content-box{
-  margin: 50px auto;
+  
+  margin: 150px auto;
   width: 550px;
-  height: 800px;
-
-  border: 4px solid black;
-  
-  
+  height: 1400px;
+  /* border: 4px solid black; */
+  border-top: 1px solid #ffe4cb;
+  border-bottom: 1px solid #ffe4cb;
 }
 .main-container-section1{
   width: 530px;
-  height: 700px;
-
-  margin-top: 0;
-
+  height: 900px;
+  margin-top: 50px;
   border-radius: 4px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-
 }
 .inputid{
   height: 60px;
-  width: 500px;
+  width: 95%;
   
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  box-sizing: border-box;
+  padding: 8px 15px 9px;
+  border: 4px solid #ffa958;
   border-radius: 4px;
-  border-style: none;
-  font-size: 23px;
+  box-sizing: border-box;
+
+  font-size: 20px;
   line-height: 21px;
+
   display: inline-block;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
 }
 .inputpw{
   height: 60px;
-  width: 500px;
+  width: 95%;
   
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  box-sizing: border-box;
+  padding: 8px 15px 9px;
+  border: 4px solid #ffa958;
   border-radius: 4px;
-  border-style: none;
-  font-size: 23px;
+  box-sizing: border-box;
+
+  font-size: 20px;
   line-height: 21px;
 
   display: inline-block;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid black;
 }
 .inputpw2{
   height: 60px;
-  width: 500px;
+  width: 95%;
   
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  box-sizing: border-box;
+  padding: 8px 15px 9px;
+  border: 4px solid #ffa958;
   border-radius: 4px;
-  border-style: none;
-  font-size: 23px;
+  box-sizing: border-box;
+
+  font-size: 20px;
   line-height: 21px;
 
   display: inline-block;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid black;
 }
 .inputemail{
   height: 60px;
-  width: 500px;
+  width: 95%;
   
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  box-sizing: border-box;
+  padding: 8px 15px 9px;
+  border: 4px solid #ffa958;
   border-radius: 4px;
-  border-style: none;
-  font-size: 23px;
+  box-sizing: border-box;
+
+  font-size: 20px;
   line-height: 21px;
 
+  
   display: inline-block;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid black;
 }
 .inputphone{
   height: 50px;
-  width: 400px;
+  width: 415px;
   
-  margin-top: 10px;
+  margin-top: 15px;
   box-sizing: border-box;
   border-radius: 4px;
   border-style: none;
-  font-size: 23px;
+  font-size: 20px;
   line-height: 21px;
 
   display: inline-block;
   
   
-  border: 1px solid black;
+  border: 4px solid #ffa958;
 }
 
 .phone-auth{
   height: 50px;
-  width: 400px;
+  width: 415px;
   
   margin-bottom: 10px;
 
@@ -303,7 +266,7 @@ a{
   justify-content: center;
   align-items: center;
 
-  border: 1px solid black;;
+  border: 4px solid #ffa958;;
 }
 .btn-auth{
   height: 50px;
@@ -312,9 +275,11 @@ a{
   right: 706px;
   cursor: pointer;
 
-  background-color: grey;
+  background-color: #ffa958;
   border-radius: 4px;
   border:none;
+      font-size: 18px;
+    font-weight: bold;
 }
 
 .input-name{
@@ -323,15 +288,27 @@ a{
   text-align: left;
   display: flex;
   justify-content: left;
-  margin-left: 10px;
+  margin-left: 28px;
+  margin-bottom: 10px;
   font-weight: bold;
 
 }
+/* .main-container-section2{
+  border-top: 1px solid #ffa958;
+  margin-top: 50px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+} */
 .box{
   width: 155px;
   height: 50px;
-  border: grey 4px solid;
+  border: #ffa958 4px solid;
   border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
   
 }
 
@@ -351,16 +328,15 @@ a{
 
 .radio-gender{
   /* border: #e9f4d9 4px solid; */
-  width: 300px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  justify-content: left;
+  margin-left: 18px;
 
 }
 
 .radio-gender input[type='radio'] {
-  margin: 0 10px; 
+  margin: 0 5px; 
 }
 
 .btn-login{
@@ -378,16 +354,6 @@ a{
   font-weight: bold;
   cursor: pointer;
 }
-.main-container-section2{
-  border-top: 1px solid #e9f4d9;
-  margin-top: 50px;
-  width: 100%;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: left
-  ;
-}
 
 .span-p{
   display: inline-block;
@@ -399,8 +365,8 @@ a{
   width: 45%;
   height: 40px;
 
-  background: #grey;
-  color:#white;
+  background: #ffa958;
+  color: white;
 
   border-radius: 4px;
   border-style: none;
@@ -418,13 +384,15 @@ a{
 
 .main-container-section3{
   width: 100%;
-  height: 60px;
+  height: 100px;
   margin-top: 10px;
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 18px;
   font-weight: bold;
+  border-top: #ffa958 1px solid;
 }
 
 .main-container-section4{
