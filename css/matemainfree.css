@@ -134,11 +134,12 @@
   display: flex;
   margin: 0 400px;
   line-height: 30px;
-      margin-left: 160px;
+  margin-left: -260px;
 }
 .main-nav-container ul li{
   font-size: 14px;
   margin: 0 10px;
+  text-align: center;
   /* font-weight: bold; */
 }
 #main-nav-button{
