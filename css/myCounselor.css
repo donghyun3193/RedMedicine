@@ -11,6 +11,12 @@
     font-weight: 600;
     font-style: normal;
 }
+@font-face {
+    font-family: 'iceJaram-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -152,6 +158,45 @@ a{
     margin: 8px 10px;
 }
 /*===footer가 종료되는 CSS===*/
+/* 서브 메인 나브바  */
+.main-nav-container5{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(249, 147, 37);
+  
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .main-nav-container5 ul{
+    list-style: none;
+    display: flex;
+    margin: 0 400px;
+    line-height: 30px;
+    margin-left: -170px;
+  }
+  .main-nav-container5 ul li{
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  #main-nav-button{
+    color: white;
+  }
+  
+  #nav-title{
+    margin: 20px 20px;
+    font-size: 23px;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+  .main-nav-container5 ul li :hover{
+    border-bottom: 4px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+    
+  }
+  /*  */
 /* ===mydaybook 시작!=== */
 .daybook{
     width: 100%;
@@ -181,6 +226,14 @@ a{
     width: 500px;
     height: 250px;
     padding: 100px 0 0 100px;
+}
+.img-container-title>h2{
+    font-size: 60px;
+    font-family: 'iceJaram-Rg';
+}
+.img-container-title>p{
+    font-size: 18px;
+    font-family: 'SUITE-Regular';
 }
 .img-container-img{
     width: 350px;
