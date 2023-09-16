@@ -104,7 +104,7 @@ a{
 }
 .main-container{
     width: 100vw;
-    height: 1350px;
+    height: auto;
     /* background-color: aqua; */
 }
 .main-nav-container{
@@ -120,10 +120,10 @@ a{
     display: flex;
     margin: 0 400px;
     line-height: 30px;
-    margin-left: -220px;
+    margin-left: -170px;
 }
 .main-nav-container ul li{
-    width: 100px;
+    width: 85px;
     font-size: 14px;
     margin: 0 10px;
     text-align: center;
@@ -143,111 +143,210 @@ a{
     padding: 20px 0;
     font-weight: bold;
 }
-.main-content-container{
+.main-content{
+    width: 100vw;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.main-content-contaniner{
     width: 1000px;
-    height: 1350px;
+    height: 100%;
     margin: 0 auto;
-    /* background-color: antiquewhite; */
-}
-.main-content-title{
-    width: 500px;
-    height: 80px;
+    margin-top: 30px;
     /* background-color: pink; */
-    margin: 0 auto;
-    text-align: center;
-    line-height: 100px;
-    font-size: 40px;
+}
+.main-title{
+    width: 1000px;
+    height: 50px;
+    margin: 15px 0;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 5px 10px;
     font-weight: bold;
-    border-bottom: 1px solid rgb(222, 220, 220);
+    border-bottom: 0.5px solid rgb(243, 241, 241);
     font-family: 'iceJaram-Rg';
+    /* background-color: pink; */
 }
-table{
+.title{
+    width: 1000px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: seashell;
+    text-indent: 10px;
+    line-height: 60px;
     font-family: 'SUITE-Regular';
-    /* font-weight: bolder; */
-    color: rgb(72, 71, 71);
-    width: 950px;
-    height: 1000px;
-    margin: 0 auto;
-    margin-top: 40px;
+    font-size: 20px;
 }
-tr{
-    width: 900px;
-    /* height: 25px; */
-    background-color: rgb(249, 241, 225);
-    border: 0.5px solid gray;
+.writer-date{
+    width: 1000px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(175, 116, 4);
 }
-.content01{
-    height: 50px;
-}
-.content01-input{
-    width: 40px;
-    height: 25px;
-    margin: 0 15px;
-}
-.content01-checkboxes input{
+.writer, .date{
     margin: 0 10px;
 }
-.content01-checkboxes span{
-    margin: 0 10px;
-    font-size: 15px;
+.content{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(243, 241, 241);
 }
-.content01-checkboxes02{
-    font-size: 15px;
-}
-.content01-checkboxes02 input{
-    margin: 0 10px;
-}
-th{
-    width: 120px;
-}
-td{
-    width: 120px;
-    height: 25px;
-    background-color: rgb(249, 250, 250);
-}
-.writer input{
-    width: 120px;
-    height: 25px;
-    margin: 0 10px;
-}
-.content-text{
-    height: 530px;
-}
-.content-text textarea{
-    width: 800px;
-    height: 550px;
-    margin: 10px;
-    text-indent: 5px;
-    padding: 5px 0 ;
-    resize: none;
-}
-.addfile{
-    height: 50px;
-}
-.main-buttons{
-    width: 950px;
+.buttons{
+    width: 1000px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin: 10px 0;
 }
-.main-buttons button{
-    width: 55px;
-    height: 30px;
-    margin:  0px 5px;
+.buttons button{
+    width: 70px;
+    height: 35px;
     background-color: orange;
-    color: white;
+    border-radius: 3px;
     border: none;
-    font-size: 15px;
-    border-radius: 5px;
+    font-size: 17px;
+    margin: 0 10px;
 }
-#main-buttons-button{
+#list-button{
     color: white;
 }
-.content02{
-    height: 40px;
+.reply-container{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: pink; */
 }
+.reply-writing{
+    width: 990px;
+    height: 180px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.reply-writerName{
+    width: 990px;
+    height: 30px;
+    box-sizing: border-box;
+    padding:  5px 10px; 
+    /* background-color: yellow; */
+}
+.reply-textarea{
+    width: 990px;
+    height: 100px;
+    /* background-color: green; */
+    text-align: center;
+}
+.reply-textarea textarea{
+    width: 980px;
+    height: 100px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    resize: none;
+}
+.reply-button{
+    width: 990px;
+    height: 30px;
+    text-align: end;
+    line-height: 30px;
+}
+.reply-button button{
+    width: 55px;
+    height: 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+#reply-button{
+    color: white;
+}
+.reply-reading{
+    width: 1000px;
+    height: auto;
+}
+.reply-reading-box{
+    width: 990px;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-top: 0.5px solid gray;
+    /* background-color: rgb(251, 245, 246); */
+}
+.reply-name{
+    width: 990px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 3px;
+    /* background-color: yellow; */
+   
+}
+.reply-date{
+    width: 990px;
+    height: 20px;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 2px 3px;
+    /* background-color: violet; */
+}
+.reply-content-and-menu{
+    width: 990px;
+    height: 80px;
+    display: flex;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 8px 3px;
+    /* background-color: blue; */
+}
+.reply-content{
+    width: 950px;
+    height: 80px;
+    /* background-color: pink; */
+}
+.reply-menu{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'SUITE-Regular';
+    /* background-color: yellow; */
+}
+.reply-menu-img img{
+    width: 15px;
+    height: 15px;
+}
+.reply-menu-contents{
+    display: none;
+    position: absolute;
+    left: -7.5px;
+    width: 60px;
+    height: 80px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* border: 0.5px solid gray;
+    border-radius: 6px; */
+}
+.reply-menu-contents a{
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+.reply-menu-contents a:hover{
+    background-color: #f1f1f1;
+}
+.reply-menu:hover .reply-menu-contents{
+    display: block;
+}
+/* #menu1{
+    border-bottom: 0.5px solid gray;
+} */
 .footer{
     width: 100vw;
     height: 130px;
