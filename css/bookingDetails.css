@@ -215,9 +215,10 @@ a{
   height: 80px;
   /* border: 1px solid black; */
   text-align: center;
-  margin-top: 30px;
-  border-bottom: 5px solid rgb(249, 147, 37);
-  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid rgb(249, 147, 37);
+  border-radius: 5px;
 }
 .time-selectbox{
   width: 800px;
@@ -230,10 +231,10 @@ a{
 }
 .calender-box{
   width: 600px;
-  height: 550px;
+  height: 600px;
   display: flex;
   flex-direction: column ;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   /* border: 1px solid black; */
   margin-bottom: 10px;
@@ -241,21 +242,36 @@ a{
 }
 .calender-box-title{
   width: 600px;
-  height: 80px;
+  height: 130px;
   text-align: center;
 }
+.calender-titlebox{
+  margin-top: 20px;
+  width: 600px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* .calender-titlebox>p{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 120px;
+} */
 /*달력 css 시작*/
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
 .calender-div{
-    background-color : white;
-    height: auto;
-    width: 400px;
-    margin: 0px;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius:5px;
-    box-shadow:0px 20px 15px -10px rgb(255, 226, 173);
+  background-color: white;
+  height: auto;
+  width: 400px;
+  margin: 0px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-left: 95px;
+  /* border: 5px solid black; */
+  border-radius: 5px;
+  box-shadow: 0px 20px 15px -10px rgb(255, 226, 173);
 }
 
 td {
@@ -351,6 +367,7 @@ td {
   height: 50px;
   display: flex;
   justify-content: end;
+  margin-bottom: 100px;
 }
 .nextpage{
   width: 100px;
@@ -359,10 +376,9 @@ td {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid white;
   border-radius: 5px;
   background-color: rgb(255, 226, 173);
   font-size: 18px;
   font-weight: 400;
-  margin:30px 30px 0 0 ;
+  margin:30px 50px 0 0 ;
 }
