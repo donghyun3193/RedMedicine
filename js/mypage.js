@@ -64,24 +64,3 @@ birthDayEl.addEventListener('focus', function () {
             $inputs.prop('checked',false);
         }
     });
-
-
-// '이용약관' 모달 열기
-$('.btn-open-popup').on('click', function(){
-  $('section.terms-modal').removeClass('none');
-});
-
-// '개인정보수집 및 이용동의' 모달 열기
-$('.btn-open-popup2').on('click', function(){
-  $('section.privacy-modal').removeClass('none');
-});
-
-// 모달 외부를 클릭하면 모달 닫기
-$('section').on('click', function(){
-  $(this).addClass('none');
-});
-
-// 모달 내부를 클릭해도 모달이 닫히지 않도록 처리
-$('.modal').on('click', function(event){
-  event.stopPropagation();
-});
