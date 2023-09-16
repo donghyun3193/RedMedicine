@@ -81,18 +81,61 @@ function leftPad(value) {
 /*======달력 종료======*/
 
 /*======시간 설정======*/
-const buttons = document.querySelectorAll('.btn-time');
-let selectedTime = null;
+// const buttons = document.querySelectorAll('.btn-time');
+// let selectedTime = null;
 
-buttons.forEach(button => {
-    button.addEventListener('click', () => {
-        if (!selectedTime) {
-            selectedTime = button.getAttribute('data-time');
-            button.disabled = true;
-            alert(`${selectedTime}를 선택하셨습니다.`);
+// buttons.forEach(button => {
+//     button.addEventListener('click', () => {
+//         if (!selectedTime) {
+//             selectedTime = button.getAttribute('data-time');
+//             button.disabled = true;
+//             alert(`${selectedTime}를 선택하셨습니다.`);
+//         } else {
+//             alert('이미 시간을 선택하셨습니다.');
+//         }
+//     });
+// });
+/*======시간 설정 종료======*/
+
+// 날짜를 클릭했을 때 선택 처리를 추가
+let dateCells = document.querySelectorAll('.Calendar td:not(.pastDay)');
+dateCells.forEach(dateCell => {
+    dateCell.addEventListener('click', () => {
+        if (dateCell.classList.contains('selected')) {
+            dateCell.classList.remove('selected');
         } else {
-            alert('이미 시간을 선택하셨습니다.');
+            dateCell.classList.add('selected');
         }
     });
-}); 
-/*======시간 설정 종료======*/
+});
+
+    // 시간 버튼에 이벤트 핸들러 할당
+    const timeButtons = document.querySelectorAll('.btn-time');
+    timeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            choiceTime(button);
+        });
+    });
+
+    // 시간 선택 함수
+    function choiceTime(button) {
+        if (document.querySelector('.btn-time.selected')) {
+            // 이미 선택한 시간이 있는 경우
+            alert('이미 시간을 선택하셨습니다.');
+        } else {
+            // 선택한 시간 버튼에 'selected' 클래스 추가
+            button.classList.add('selected');
+            alert(`${button.getAttribute('data-time')}를 선택하셨습니다.`);
+        }
+    }
+
+// "다음 단계" 링크 클릭 시 선택 여부 확인
+document.querySelector('.nextpage').addEventListener('click', function (event) {
+    const selectedDate = document.querySelector('.Calendar p.choiceDay');
+    const selectedTime = document.querySelector('.selected');
+
+    if (!selectedDate || !selectedTime) {
+        alert('날짜와 시간을 선택해야 다음 페이지로 진행할 수 있습니다.');
+        event.preventDefault(); // 링크의 기본 동작(페이지 이동)을 막음
+    }
+});
