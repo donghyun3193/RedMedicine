@@ -253,6 +253,22 @@
   justify-content: center;
   align-items: center;
   }
+  .inputname{
+    height: 60px;
+    width: 95%;
+    
+    padding: 8px 15px 9px;
+    border: 4px solid #ffa958;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+    font-size: 20px;
+    line-height: 21px;
+  
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    }
 .inputemail{
   height: 60px;
   width: 95%;
@@ -337,8 +353,30 @@
   border: #ffa958 4px solid;
   border-radius: 4px;
   text-align: center;
-  font-size: 18px;
-    
+  font-size: 18px;   
+}
+
+.main-container-section1 input:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.main-container-section1 input:focus{
+  border-color: #5ac4fd;
+}
+
+.main-container-section2 .box:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.box:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.main-container-section2 .box:focus{
+  border-color: #5ac4fd;
+}
+.box:focus{
+  border-color: #5ac4fd;
 }
 
 /* SECTION - BIRTH */
@@ -390,17 +428,44 @@
     border-bottom: 1px solid #ffa958;
     margin-top: 20px;
     width: 100%;
-    height: 170px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    position: relative;
+}
+.checkbox-agree0{
+  margin-left: 10px;
+  color: black;
 
-    
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+
+  border: none;
+  background-color: white;
+  
+  text-align: start;
+}
+
+.checkbox-agree{
+  margin-left: 10px;
+  color: black;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+
+  border: none;
+  background-color: white;
+  
+  text-align: start;
 }
 .btn-open-popup{
     margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding-bottom: 10px;
     color: black;
   
@@ -409,10 +474,11 @@
     letter-spacing: -0.3px;
   
     border: none;
-    border-bottom: 1px solid #dcdfd5;
     background-color: white;
     
     text-align: start;
+
+    cursor: pointer;
   }
   
   .btn-open-popup2{
@@ -428,13 +494,16 @@
     background-color: white;
 
     text-align: start;
+
+    cursor: pointer;
   }
   
   
   .span-p{
     display: inline-block;
-    padding-left: 2px;
-    font-size: 12px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
   }
 
   .btn-join{
@@ -520,49 +589,37 @@
   .container2-01-content{
     margin: 8px 10px;
   }
-  
-  
   /* 모달창 시작 */
-.modal{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-/* 모달창 중앙 맞추기 */
+  section{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .none{
+      display: none;
 
-  display:none;
-
-  background-color: rqba(0,0,0,0.4);
-}
-.modal.show{
-  display: block;
-}
-.modal_body{
-  position: absolute;
-  top : 50%;
-  left : 50%;
-  transform: translateX(-50%) translateY(-50%);
+  }
   
-/* 모달창 중앙 맞추기  */
-
-  width:400px;
-  height: 700px;
-  padding: 40px;
-
-  text-align: center;
-
-  background-color: rgb(255, 255, 255);
+.modal{
+  width: 800px;
+  height: 1000px;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
-/* 수평위치, 수직위치, 흐림정도, 확산정도
-  (그림자색) */
-
+  overflow-y: auto;
 }
+
 
 .modal_span{
   display: block;
   text-align: left;
+  padding: 4px 4px 4px 4px;
 }
 
 /* 모달창 끝 */
