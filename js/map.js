@@ -1,3 +1,6 @@
+
+
+
 var markers = [];
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
@@ -216,3 +219,30 @@ function removeAllChildNods(el) {
         el.removeChild (el.lastChild);
     }
 }
+
+
+
+//경로 이동 js
+// 주소-좌표 변환 객체를 생성합니다
+var geocoder = new kakao.maps.services.Geocoder();
+
+// 주소로 좌표를 검색합니다
+geocoder.addressSearch(sradr, function(result, status) {
+
+    // 정상적으로 검색이 완료됐으면
+    if (status === kakao.maps.services.Status.OK) {
+
+        var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+        var lat = result[0].y; // 위도
+        var lng = result[0].x; // 경도
+        console.log(lat);
+        console.log(lng);
+
+        var mapbtn = document.getElementById('map-btn');
+        mapbtn.addEventListener("click", function() {
+            window.location.href = "https://map.kakao.com/link/to/" + document.getElementById("sName").value + "," + lat + "," + lng;
+        });
+    } else {
+        console.log("주소 검색에 실패했습니다.");
+    }
+});
