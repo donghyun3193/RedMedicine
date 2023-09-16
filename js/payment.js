@@ -30,7 +30,8 @@ decreaseButton.onclick = () => {
 
 paymentButton.addEventListener("click", () => {
     // 페이지 이동을 원하는 URL로 변경
-    window.location.href = "결제페이지의 URL 주소";
+    alert("일단 메인페이지로 이동합니다.")
+    window.location.href = "/html/index.html";
 });
 
 // 페이지 로드 시 초기 가격 설정

@@ -157,6 +157,9 @@ a{
 .container2-01-content{
     margin: 8px 10px;
 }
+.container2-01-content>a{
+  color: rgb(169, 168, 168);
+}
 /*===footer가 종료되는 CSS===*/
 /* 서브 메인 나브바  */
 .main-nav-container5{
@@ -320,6 +323,11 @@ a{
 .main-content-list table td{
     border-bottom: 0.5px solid silver;
     /* background-color: yellow; */
+}
+td>button{
+  border: none;
+  background-color: white;
+  font-size: 16px;
 }
 /*페이징 처리를 할 공간입니다.*/
 .paging-container{
