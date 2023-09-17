@@ -242,14 +242,19 @@ a{
     width: 150px;
     height: 50px;
     margin-right: 5px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
-    color: black;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
     align-items: center;
     text-align: center;
     border: none;
-    background-color: #ffa958;
+    background-color: orange;
 
+    border-radius: 4px;
+
+    cursor: pointer;
 }
 
 /* 예약 페이지03 종료*/

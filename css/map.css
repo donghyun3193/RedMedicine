@@ -347,6 +347,7 @@ text-align: start;
   border-bottom: 1px solid grey;
   padding-bottom: 5px;
   /* border: 1px solid black; */
+  text-indent: 10px;
 }
 .main-container-up-section2-button{
 width: 100px;
