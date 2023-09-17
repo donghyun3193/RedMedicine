@@ -115,7 +115,9 @@ a{
     /* background-color: antiquewhite; */
   }
 /*===헤더가 종료되는 CSS===*/
-
+.t-btn{
+  cursor: pointer;
+}
 /*===footer가 시작되는 CSS===*/
 .footer{
     width: 100vw;

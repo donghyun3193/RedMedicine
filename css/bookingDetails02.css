@@ -110,6 +110,18 @@ a{
   }
 /*===헤더가 종료되는 CSS===*/
 
+.checkbox1{
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+
+
+
+
+
+
 /*===footer가 시작되는 CSS===*/
 .footer{
     width: 100vw;
