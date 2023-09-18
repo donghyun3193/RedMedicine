@@ -157,6 +157,9 @@ a{
 .container2-01-content{
     margin: 8px 10px;
 }
+.container2-01-content>a{
+  color: rgb(169, 168, 168);
+}
 /*===footer가 종료되는 CSS===*/
 
 /* 서브 메인 나브바  */
