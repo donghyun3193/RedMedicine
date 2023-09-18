@@ -191,9 +191,14 @@
     /* border: 1px solid black; */
     border-radius: 2px;
     box-sizing: border-box;
-    
-
-  }
+}
+.main-container-section1 input:focus{
+  border-color: rgb(255, 140, 0);
+  outline: none;
+}
+.main-container-section1 input:focus{
+  border-color: #5ac4fd;
+}
   .inputid{
     height: 60px;
     width: 100%;
